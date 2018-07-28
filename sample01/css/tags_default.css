@@ -11,19 +11,46 @@ table, td, th {
   border: 1px #000000 solid;
 }
 
-.store-plan{
+.login-div {
+  /* 上下センタリング */
+  position: relative;
+}
+
+.login-form {
+  /* 左右センタリング */
+  width: 250px;
+  height: 180px;
+  /* 上下センタリング */
+  position: absolute; /* 親要素がrelativeの場合、親の左上を0とする絶対指定 */
+  top: 50%; /* topを親からみて50%の位置に配置 */
+  left: 50%; /* leftを親からみて50%の位置に配置 */
+  transform: translate(-50%,-50%);
+  /* ボーダー */
+/*
+  border: 1px #000000 solid;
+*/
+}
+
+.login-form .center{
+  position: relative;
+  left: 50%; /* leftを親からみて50%の位置に配置 */
+  transform: translateX(-49%);/* 左罫線が隠れないように-50%⇒-49に修正 */
+}
+
+
+.store-plan {
   width: 1000px;
 }
 
-.store-plan .store-width{
+.store-plan .store-width {
   width: 110px;
 }
 
-.store-plan .store-align{
+.store-plan .store-align {
   text-align: left;
 }
 
-.store-plan input[type="text"]{
+.store-plan input[type="text"] {
   width: 55px;
   text-align: right;
 }
