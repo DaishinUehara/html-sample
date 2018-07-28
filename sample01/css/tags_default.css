@@ -1,4 +1,33 @@
 
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  word-wrap: break-word;
+}
+
 table, td, th {
-    border: 1px #000000 solid;
+  border: 1px #000000 solid;
+}
+
+.store-plan{
+  width: 1000px;
+}
+
+.store-plan .store-width{
+  width: 110px;
+}
+
+.store-plan .store-align{
+  text-align: left;
+}
+
+.store-plan input[type="text"]{
+  width: 55px;
+  text-align: right;
+}
+
+.store-plan caption {
+  text-align: left;  
 }
