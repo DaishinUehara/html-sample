@@ -39,7 +39,7 @@ table, td, th {
 
 
 .store-plan {
-  width: 1000px;
+  width: 1024px;
 }
 
 .store-plan .store-width {
@@ -53,6 +53,11 @@ table, td, th {
 .store-plan input[type="text"] {
   width: 55px;
   text-align: right;
+}
+
+.store-plan input[type="button"] {
+  width: 55px;
+  text-align: center;
 }
 
 .store-plan caption {
