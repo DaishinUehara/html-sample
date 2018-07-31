@@ -2,11 +2,11 @@
 
 単純なHTMLサンプルです.
 
-# LICENSE
+## LICENSE
 
 MIT License.
 
-# 説明
+## 説明
 
 |No.|名称|説明|
 |-:|:-|:-|
