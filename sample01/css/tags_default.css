@@ -43,20 +43,21 @@ table, td, th {
 }
 
 .store-plan .store-width {
-  width: 110px;
+  width: 108px;
 }
 
 .store-plan .store-align {
   text-align: left;
 }
 
+
 .store-plan input[type="text"] {
-  width: 55px;
+  width: 54px;
   text-align: right;
 }
 
 .store-plan input[type="button"] {
-  width: 55px;
+  width: 54px;
   text-align: center;
 }
 
