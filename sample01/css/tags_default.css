@@ -64,3 +64,12 @@ table, td, th {
 .store-plan caption {
   text-align: left;  
 }
+
+
+.fldiv {
+  display: flex;
+}
+/* 3分割の左寄せ */
+.span3 {
+  width : calc(100% / 3) ;
+}
