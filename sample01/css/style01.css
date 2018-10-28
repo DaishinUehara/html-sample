@@ -2,7 +2,7 @@
 
 
 .box {
-  border: solid 2px red;
+  border: solid 2px #ff0000;
   box-sizing: border-box;
 
   text-align: center;
@@ -25,7 +25,7 @@
     border: solid 1px #ffff00;
     box-sizing: border-box;
     float: left;
-    width: 20%;  /** 横幅33% **/
+    width: 20%;  /** 横幅20% **/
     background: #ffffaa;
     text-align: left;
   }
@@ -34,7 +34,7 @@
     border: solid 1px #ffff00;
     box-sizing: border-box;
     float: left;
-    width: 65%;  /** 横幅33% **/
+    width: 65%;  /** 横幅65% **/
     background: #ffffaa;
     text-align: left;
   }
@@ -43,7 +43,7 @@
     border: solid 1px #ffff00;
     box-sizing: border-box;
     float: left;
-    width: 15%;  /** 横幅33% **/
+    width: 15%;  /** 横幅15% **/
     background: #ffffaa;
     text-align: left;
   }
