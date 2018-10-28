@@ -1,0 +1,40 @@
+
+
+
+.box {
+  border: solid 2px red;
+  box-sizing: border-box;
+
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 60px;
+  background: #aaffff
+}
+
+  .box1 {
+    border: solid 1px #ff0000;
+    box-sizing: border-box;
+    float: left;
+    background: #ffaaaa;
+    width: 100%;  /** 横幅100% **/
+    text-align: center;
+  }
+
+  .box2, .box3, .box4 {
+    border: solid 1px #ffff00;
+    box-sizing: border-box;
+    float: left;
+    width: calc(100%/3);  /** 横幅33% **/
+    background: #ffffaa;
+    text-align: left;
+  }
+
+  .box5 {
+    border: solid 1px #444444;
+    box-sizing: border-box;
+    float: left;
+    background: #aaaaaa;
+    width: 100%;  /** 横幅100% **/
+    text-align: right;
+  }
