@@ -1,22 +1,62 @@
-
-
-
 .gridcontainer {
   border: solid 2px red;
   box-sizing: border-box;
+  display: grid;
 
   text-align: center;
   line-height: 100px;
   font-weight: bold;
   font-size: 60px;
-  background: #aaffff
+  background: #aaffff;
+  grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
 }
 
-  .griditem {
+  .griditem1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
     border: solid 1px #ff0000;
     box-sizing: border-box;
     float: left;
     background: #ffaaaa;
-    width: 100%;  /** 横幅100% **/
+    text-align: center;
+  }
+
+  .griditem2-1 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    border: solid 1px #ff0000;
+    box-sizing: border-box;
+    float: left;
+    background: #ffaaaa;
+    text-align: center;
+  }
+
+  .griditem2-2 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    border: solid 1px #ff0000;
+    box-sizing: border-box;
+    float: left;
+    background: #ffaaaa;
+    text-align: center;
+  }
+
+  .griditem2-3 {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    border: solid 1px #ff0000;
+    box-sizing: border-box;
+    float: left;
+    background: #ffaaaa;
+    text-align: center;
+  }
+
+  .griditem3 {
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+    border: solid 1px #ff0000;
+    box-sizing: border-box;
+    float: left;
+    background: #ffaaaa;
     text-align: center;
   }
