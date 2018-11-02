@@ -1,14 +1,9 @@
 
 
-table {
-  table-layout: fixed;
-  border-collapse: collapse;
-  border-spacing: 0;
-  word-wrap: break-word;
-}
 
-table, td, th {
-  border: 1px #000000 solid;
+input {
+  margin: 0px;
+  padding: 0px;
 }
 
 .login-div {
@@ -37,31 +32,4 @@ table, td, th {
   transform: translateX(-49%);/* 左罫線が隠れないように-50%⇒-49に修正 */
 }
 
-
-.store-plan {
-  width: 1024px;
-}
-
-.store-plan .store-width {
-  width: 108px;
-}
-
-.store-plan .store-align {
-  text-align: left;
-}
-
-
-.store-plan input[type="text"] {
-  width: 54px;
-  text-align: right;
-}
-
-.store-plan input[type="button"] {
-  width: 54px;
-  text-align: center;
-}
-
-.store-plan caption {
-  text-align: left;  
-}
 
