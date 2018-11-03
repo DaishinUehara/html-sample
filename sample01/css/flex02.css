@@ -1,0 +1,138 @@
+
+/**
+:root {
+  --box-border: 1px;
+  --box-height: calc(100vh - 15px);
+  --box-width: calc(100% - 5px);
+  --leftside-width: 300px;
+  --rightside-width: 200px;
+  --header-height: 50px;
+  --header-width: var(--box-width);
+  --footer-height: 30px;
+  --footer-width: var(--box-width);
+  --main-contents-height: calc(100vh - 15px - 50px - 30px);
+  --main-contents-width: calc(100% - 5px - 300px - 200px);
+}
+**/
+
+html, body {
+  padding: 0px;
+  border: 0px;
+  font-size: 0px;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+  .box {
+    border: solid 1px #ff0000;
+    box-sizing: border-box;
+    padding: 0px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    background: #1b2727;
+    height: calc(100vh - 15px);
+    width: calc(100% - 5px);
+  }
+
+  .flexhead{
+    display: -webkit-box; /*Android4.3*/
+    display: -moz-box;    /*Firefox21*/
+    display: -ms-flexbox; /*IE10*/
+    display: -webkit-flex; /*PC-Safari,iOS8.4*/
+    display: flex;
+    height: var(--header-height);
+    width: calc(100% - 5px);
+    padding: 0px;
+    border: 0px;
+  }
+    .head {
+      font-weight: border;
+      font-size: 24px;
+      border: solid 1px #ff0000;
+      box-sizing: border-box;
+      /** float: left; **/
+      background: #ffaaaa;
+      width: 100%;  /** 横幅100% **/
+      text-align: center;
+      padding: 0px;
+    }
+
+  .flexcontents{
+    display: -webkit-box; /*Android4.3*/
+    display: -moz-box;    /*Firefox21*/
+    display: -ms-flexbox; /*IE10*/
+    display: -webkit-flex; /*PC-Safari,iOS8.4*/
+    display: flex;
+    height: calc(100vh - 15px - 50px - 30px); /** ボックスの高さ - ヘッダ - フッタ **/
+    padding: 0px;
+    border: 0px;
+  }
+
+    .leftside {
+      border: solid 1px #ffff00;
+      box-sizing: border-box;
+      width: 300px; /** 左袖 **/
+      background: #ffffaa;
+      text-align: left;
+      padding: 0px;
+    }
+
+      object {
+        border: 0px;
+        padding: 0px;
+        height: 100%;
+      }
+
+        .leftobject {
+          border: solid 1px #ffff00;
+          box-sizing: border-box;
+          width: 298px; /** 左袖 **/
+          background: #ffffaa;
+          text-align: left;
+          padding: 0px;
+        }
+
+    .contents{
+        border: solid 1px #ffff00;
+        box-sizing: border-box;
+        width: calc(100% - 5px - 300px - 200px);
+        background: #ffffaa;
+        text-align: left;
+        padding: 0px;
+      }
+
+    .info {
+      font-size: 12px;
+      border: solid 1px #ffff00;
+      box-sizing: border-box;
+      width: 200px;
+      background: #ffffaa;
+      text-align: left;
+      padding: 0px;
+    }
+
+  .flexfooter{
+    display: -webkit-box; /*Android4.3*/
+    display: -moz-box;    /*Firefox21*/
+    display: -ms-flexbox; /*IE10*/
+    display: -webkit-flex; /*PC-Safari,iOS8.4*/
+    display: flex;
+    height: 30px;
+    width: calc(100% - 5px);
+    padding: 0px;
+    border: 0px;
+  }
+
+    .fotter {
+      font-size: 12px;
+      border: solid 1px #444444;
+      box-sizing: border-box;
+      background: #aaaaaa;
+      width: 100%;  /** 横幅100% **/
+      text-align: right;
+      padding: 0px;
+    }

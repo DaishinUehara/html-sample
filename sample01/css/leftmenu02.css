@@ -1,0 +1,50 @@
+html, body {
+    padding: 0px;
+    border: 0px;
+    font-size: 0px;
+}
+
+div.accmenu { /* .accbox⇒.accmenu */
+  margin: 2em 0;
+  padding: 0;
+  font-size: 16px;
+  background:#ffffaa;
+}
+
+div.accmenu label{
+  display: block;
+  margin: 1.5px 0;
+  padding: 11px 12px;
+  color: #fff;
+  background-color: #111;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+div.accmenu label:hover {
+  background :#222;
+}
+
+div.accmenu input {
+  display :none;
+}
+
+div.accmenu input {
+  display :none;
+}
+
+.accbox .accshow {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+.cssacc:checked + .accshow {
+  height: auto;
+  padding: 5px;
+  background: #333;
+  opacity: 1;
+}

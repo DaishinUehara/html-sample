@@ -1,0 +1,36 @@
+html, body {
+    padding: 0px;
+    border: 0px;
+    font-size: 0px;
+}
+
+ul.leftmenu01 {
+  padding: 0px;
+  font-size: 16px;
+  list-style: none;
+  margin: 0px;
+  background:#ffffaa;
+}
+
+ul.leftmenu01 li{
+  padding: 0px 0px 0px 10px;
+  width: calc(100%-10px);
+  background-color: #333;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+ul.leftmenu01 li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+ul.leftmenu01 li ul {
+  background:#ffffaa;;
+}
+
+ul.leftmenu01 li ul li{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
