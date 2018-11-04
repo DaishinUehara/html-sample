@@ -4,14 +4,14 @@ html, body {
     font-size: 0px;
 }
 
-div.accmenu { /* .accbox⇒.accmenu */
+div.acmenu {
   margin: 2em 0;
   padding: 0;
   font-size: 16px;
   background:#ffffaa;
 }
 
-div.accmenu label{
+div.acmenu label{
   display: block;
   margin: 1.5px 0;
   padding: 11px 12px;
@@ -22,19 +22,29 @@ div.accmenu label{
   transition: all 0.5s;
 }
 
-div.accmenu label:hover {
+div.acmenu label:hover {
   background :#222;
 }
 
-div.accmenu input {
+div.acmenu input {
   display :none;
 }
 
-div.accmenu input {
-  display :none;
+div.acmenu a:hover {
+  background :#222;
 }
 
-.accmenu .accshow {
+div.acmenu a{
+  display: block;
+  margin: 1.5px 0;
+  padding: 11px 12px;
+  color: #fff;
+  background-color: #111;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.acmenu .acshow {
   height: 0;
   padding: 0;
   overflow: hidden;
@@ -42,12 +52,39 @@ div.accmenu input {
   transition: 0.8s;
 }
 
-.cssacc:checked + .accshow {
-  height: auto;
-  padding: 5px;
-  background: #333;
-  color: #fff;
-  font-weight: bold;
-  opacity: 1;
-}
+  .cssac:checked + .acshow {
+    height: auto;
+    /*padding: 5px;*/
+    background: #ffa;
+    color: #fff;
+    font-weight: bold;
+    opacity: 1;
+  }
 
+    div.acshow a{
+      display: block;
+      margin: 1.5px 0;
+      padding: 11px 20px;
+      color: #fff;
+      background-color: #333;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    div.acshow a:hover{
+      background-color: #444;
+    }
+
+    div.acshow p{
+      display: block;
+      margin: 1.5px 0;
+      padding: 11px 20px;
+      color: #fff;
+      background-color: #333;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    div.acshow p:hover{
+      background-color: #444;
+    }
