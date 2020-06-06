@@ -1,43 +1,15 @@
-
-
-table {
-  table-layout: fixed;
-  border-collapse: collapse;
-  border-spacing: 0;
-  word-wrap: break-word;
-  padding: 0px;
+.grid-table {
+	width: 1000px;
+	display: grid;
+	grid-template-columns: 108px 1fr 56px 75px 56px 56px 56px 56px 56px 56px 56px 56px 56px 56px 56px 56px;
+	grid-template-rows: repeat(auto-fill, auto);
 }
 
-table, td, th {
-  border: 1px #000000 solid;
-  padding: 0px;
-  margin: 0px;
+.grid-table>.row{
+	display: contents;
 }
 
-tr {
-  margin: 0px;
-  padding: 0px;
-}
-
-input {
-  margin: 0px;
-  padding: 0px;
-}
-
-.store-plan {
-  width: 1024px;
-}
-
-.store-plan .store-width {
-  width: 108px;
-}
-
-.store-plan .store-align {
-  text-align: left;
-}
-
-
-.store-plan input[type="text"] {
+.grid-table>.row input[type="text"] {
   text-align: right;
   /* 幅をいっぱいに広げてはみ出ないようにする↓ */
   width: 100%;
@@ -52,17 +24,19 @@ input {
   /* 枠線を消す↑ */
 }
 
-.store-plan input[type="button"] {
-  text-align: center;
+.grid-table>.row input[type="button"] {
   /* 幅をいっぱいに広げてはみ出ないようにする↓ */
   width: 100%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 幅をいっぱいに広げてはみ出ないようにする↑ */
+  text-align: center;
+  padding: 0px;
 }
 
-.store-plan caption {
-  text-align: left;  
+div {
+  border: 1px solid #000000;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
 }
-
