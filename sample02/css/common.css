@@ -1,0 +1,68 @@
+:root{
+    --commom-border: 1px;
+    --top-bar-height: calc(50px + var(--commom-border)*2);
+    --top-menu-height: calc(30px + var(--commom-border)*2);
+    --footer-height: calc(30px + var(--commom-border)*2);
+    --side-menu-width: calc(150px + var(--commom-border)*2);
+
+    --common-bg-color: #fff;
+    --common-bd-color: #000;
+}
+
+html, body {
+    height: 100%;
+}
+
+div.all {
+    border: var(--commom-border) solid var(--common-bd-color);
+    background-color: var(--common-bg-color);
+    height: 100%;
+}
+
+
+div.top-bar{
+    height: var(--top-bar-height);
+    border: var(--commom-border) solid  var(--common-bd-color);
+}
+
+div.center {
+    height: calc(100% - var(--top-bar-height) - var(--footer-height) - var(--top-menu-height));
+    border: var(--commom-border) solid  var(--common-bd-color);
+}
+
+div.top-menu {
+    height: var(--top-menu-height);
+    border: var(--commom-border) solid  var(--common-bd-color);
+}
+
+ul.ul-top-menu li{
+    display: inline-block;
+}
+
+div.left-menu {
+    border: var(--commom-border) solid  var(--common-bd-color);
+    float: left;
+    height: 100%;
+    width: var(--side-menu-width);
+}
+
+ul.ul-left-menu {
+/*    border: var(--commom-border) solid  var(--common-bd-color);*/
+    width: 100%;
+}
+
+ul.ul-left-menu li {
+    border: var(--commom-border) solid  var(--common-bd-color);
+    width: 100%;
+}
+
+div.main-contents {
+    border: var(--commom-border) solid  var(--common-bd-color);
+    height: 100%;
+}
+
+div.footer {
+    border: var(--commom-border) solid  var(--common-bd-color);
+    height: var(--footer-height);
+    float: none;
+}
